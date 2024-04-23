@@ -1,4 +1,4 @@
-# Project Name: SQL Validator
+# Project Name: Mistral SQL Query Validator
 
 ### Description:
 

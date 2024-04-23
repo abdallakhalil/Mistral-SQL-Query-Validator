@@ -1,0 +1,37 @@
+We want to store information about students’ preferences of restaurants in a database. For every student we store the student ID, first and last name, and the course of studies. Create the STUDENTS table using SQL!
+Each restaurant has a name, an owner as well as an address consisting of postal code, city and street.Create the RESTAURANT table using SQL!
+Create a third table STUDENT_RESTAURANT that stores the information which students prefer which restaurant! In case, you define the Student_ID as Char, please use  Students_C as referenced table.
+Alter the table STUDENTS to additionally store the student’s age.
+Given the example database in the appendix, create the tables for the relation PRODUCER. Moreover, the uniqueness of the growing area shall be granted.
+Given the example database in the appendix, create the tables for the relation WINE. The default value for COLOR is RED.
+Create the tables for the relations MADE FROM. Assume that the relation GRAPE, DISH, and CRITIC already exist. Guarantee referential integrity through value propagation due to UPDATE operations. For more information about the relationships of relations, see the example database in the appendix.
+Create the tables for the relations RECOMMENDS. Assume that the relation GRAPE, DISH, and CRITIC already exist. Guarantee referential integrity through value propagation due to UPDATE operations. For more information about the relationships of relations, see the example database in the appendix.
+Add the following entries to the example tables from the appendix using SQL: The Johannishof Winery settled in the area Rheingau, which is in the Hessen region.
+Add the wine Merlot to the database. It is a wine from the year 2009, which was produced in the winery from the region South Australia. The default color will be used.
+* Update all red wines by increasing their age using the year column by 1 year.
+Empty the table wine.
+Delete the entire table producer.
+* Get name and salary columns of all employees that earn more than 6450€.
+Query name and salary of all employees that do not earn between 6000€ and 10000€.
+* Query all planes that are of type A-340 or TRIDENT. Sort by purchase date.
+* Which pilots have a license different than I or II?
+Determine the names of employees that have an A at the third position of their name. 
+* Query the names of employees that have the L twice in their name.
+* Query name, job and salary columns of all employees whose job is either "Dipl.-Ing."" or "steward/-ess" and that earn are least 6000.
+* Query employee_Id, name and salary columns of all employees. Add an intermediate column new_salary to the result that shows the current salary increased by 15%. The new salary must be returned as integer value.
+Given your solution from task (a), add another intermediate column that shows the difference between the original salary and the new salary. The difference must also be returned as integer value.
+For every plane, list its type, serial number and operating hours. Operating hours must be returned in a column called operating hours. The operating hours are computed by calculating the difference between today and the purschase date of the respective plane. Use a standard date function to calculate the difference and return your result as integer. Finally, sort your list by operating hours.
+Create a query that returns following string for every employee: < name > earns < salary > per month, but desires to earn < 3?salary >. Replace all placeholders with the respective data using SQL. The new column is called desired salary.
+* List all plane types. Thereby, all first letters must be capitalized, the rest must be uncapitalized. Return the length of the type name in a second column. The columns are called name und length.
+How many planes (not types) are stored in relation departure? Name the column Amount.
+Determine the number of employees that have a PhD degree (Dr.)
+What is the average salary by job?
+Return the total price and the number of bookings for all journeys in 2008 in relation booking.
+Determine the minimum salary for every job!
+Retrieve the difference between the maximum and minimum salary of the all employees.
+Express following queries in SQL!  Get the names of all customers.
+Express following queries in SQL! Get all orders of customer Meier.
+Express following queries in SQL! List all products that have not been sold on 13.05.2003.
+* Express following queries in SQL! List all products that dealer Schmidt sold to customer Schulze.
+Express following queries in SQL! Get all products that dealer Schmidt sold and customer Schulze bought. (Union of Products)
+Express following queries in SQL! Get all products that dealer Mueller  sold and customer Schulze bought. (Intersection of Products)
